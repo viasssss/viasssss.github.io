@@ -5,7 +5,6 @@ import Footer from './Footer';
 import Header from './Header';
 import Card from './Card';
 import Projects from './Projects';
-import UserGreeting from './UserGreeting';
 import About from './About';
 import Education from './Education';
 
