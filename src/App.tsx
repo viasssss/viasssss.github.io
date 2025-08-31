@@ -1,14 +1,11 @@
-import Footer from './Footer.jsx';
-import Header from './Header.jsx';
-import Food from './Food.jsx';
-import Card from './Card.jsx';
-import Button from './Button.jsx';
-import Student from './Student.jsx';
-import UserGreeting from './UserGreeting.jsx';
-import List from './List.jsx';
+import Footer from './Footer';
+import Header from './Header';
+import Card from './Card';
+import Student from './Student';
+import UserGreeting from './UserGreeting';
+import { FC } from 'react';
 
- 
-function App() {
+const App: FC = () => {
   return(
     <>
     <Header></Header>

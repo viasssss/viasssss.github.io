@@ -1,8 +1,7 @@
-import mypic from './assets/pic.png'
-import Button from './Button';
-import cookie from './assets/cookie.jpeg'
+import mypic from './assets/pic.png';
+import { FC } from 'react';
 
-function Card(props) {
+const Card: FC = () => {
     return(
         <div className="card">
             <img className='card-img'src={mypic} alt="a picture of me">

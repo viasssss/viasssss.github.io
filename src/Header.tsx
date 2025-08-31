@@ -1,6 +1,7 @@
 
-function Header()
-{
+import { FC } from 'react';
+
+const Header: FC = () => {
     return(
         <header>
             <h1>My website</h1>
