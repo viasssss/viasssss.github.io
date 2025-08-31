@@ -1,5 +1,6 @@
 import mypic from './assets/pic.png'
 import Button from './Button';
+import cookie from './assets/cookie.jpeg'
 
 function Card(props) {
     return(
@@ -8,8 +9,8 @@ function Card(props) {
             </img>
             <h2 className='card-title'>Riley Ji</h2>
             <p className='card-text'>A researcher in Applied Mathematics</p>
-            <Button></Button>
         </div>
+        
     );
 }
 
