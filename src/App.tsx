@@ -4,9 +4,10 @@ import { Container } from 'react-bootstrap';
 import Footer from './Footer';
 import Header from './Header';
 import Card from './Card';
-import Student from './Student';
+import Projects from './Projects';
 import UserGreeting from './UserGreeting';
 import About from './About';
+import Education from './Education';
 
 const App: FC = () => {
   return (
@@ -17,15 +18,22 @@ const App: FC = () => {
           <Route path="/" element={
             <>
               <Card />
-              <UserGreeting isLoggedIn={true} username='Riley' />
+              {/* <UserGreeting isLoggedIn={true} username='Riley' /> */}
             </>
           } />
-          <Route path="/students" element={
+          <Route path="/projects" element={
             <>
-              <Student name="Riley" age={27} isStudent={true} />
-              <Student name="Bruce" age={29} isStudent={false} />
+              <Projects></Projects>
             </>
           } />
+          <Route path="education" element={
+            <>
+            <Education></Education> 
+            </>
+          } />
+            
+            
+           
           <Route path="/about" element={
             <>
               <About></About>

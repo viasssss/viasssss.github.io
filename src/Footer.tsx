@@ -5,7 +5,7 @@ const Footer: FC = () => {
     return(
         <footer className="bg-dark text-light py-4 mt-auto">
             <Container className="text-center">
-                <p className="mb-0">&copy; {new Date().getFullYear()} Riley's season</p>
+                <p className="mb-0">&copy; {new Date().getFullYear()} Season Zero</p>
             </Container>
         </footer>    
         );
