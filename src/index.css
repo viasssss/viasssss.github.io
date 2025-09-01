@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap');
 
 .card {
-  border: 1px solid hsla(0, 9%, 73%, 0.857);
+  border: 1px solid hsla(0, 2%, 62%, 0.857);
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.083);
   padding: 20px;
@@ -49,6 +49,49 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
+}
+
+
+.chat-bubble {
+  position: relative;
+  background-color: #edecedff;
+  border-radius: 16px;
+  padding: 2rem;
+  display: inline-block;
+  max-width: 900px;
+}
+
+/* Left tail */
+.chat-bubble::before {
+  content: '';
+  position: absolute;
+  top: 18px;                 /* vertical position of the tail */
+  left: -18px;               /* outside the bubble */
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 20px solid #edecedff; /* color of bubble */
+}
+
+
+
+.footer {
+  background-color: #7f7098;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.social-links a {
+  margin: 0 20px; /* adds horizontal spacing */
+  text-decoration: none;
+  color: white;
+}
+
+.custom-navbar {
+  background-color: #7f7098;
 }
 
 .student{
