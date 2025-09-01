@@ -1,8 +1,17 @@
 
 function Projects() {
     return (
-        <div className="projects" style={{ fontFamily: "'Poppins', sans-serif", maxWidth: '800px', margin: '0 auto', padding: '1rem' }}>
+        <div className="projects" style={{ fontFamily: "'Poppins', sans-serif", maxWidth: '800px', margin: '0 auto', padding: '1rem', marginTop: '3rem'}}>
             
+            
+            <h2 style={{color : '#7f7098'}}>Project experience</h2>
+            <p style={{ backgroundColor: "#edecedff", padding: "1rem", borderRadius: "8px" }}> 
+            Over the years of learning and exploring, I have worked on lots of projects
+involving data analysis and machine learning algorithms to solve real-world problems. These
+experiences have equipped me with a strong, solutions-focused mindset and the readiness to take
+on meaningful work.</p>
+            <ul>
+                <li>
             <div style={{ marginBottom: '3rem' }}>
                 <h4 style={{color : '#7f7098'}}>Targeting strategy for bronchial thermoplasty, PhD project, 2025</h4>
                 <p>Bronchial thermoplasty is an asthma treatment, which targets the excessive airway smooth muscle that obstructs flow in asthmatics.
@@ -11,7 +20,8 @@ function Projects() {
                     This projects involves numerical methods, optimization algorithms and statistical analysis for airway selection.
                 </p>
             </div>
-
+            </li>
+            <li>
             <div style={{ marginBottom: '3rem' }}>
                 <h4 style={{color : '#7f7098'}}>Neural networks, University project, 2021</h4>  
                 <p>I Implemented a stochastic gradient descent algorithm in C++ to train a neural network under supervised learning, 
@@ -19,7 +29,8 @@ function Projects() {
                     for their impact on the accuracy and efficiency of the model.
                 </p>
             </div>
-
+            </li>
+            <li>
             <div style={{ marginBottom: '3rem' }}>
                 <h4 style={{color : '#7f7098'}}>Analysis of feature selection algorithms, University project, 2020</h4>
                 <p>Feature selection is a key data preprocessing technique aimed at identifying the most valuable features within a dataset. 
@@ -27,8 +38,10 @@ function Projects() {
                     I compared these algorithms in terms of classification accuracy and computational efficiency. 
                     By analyzing the experimental results,  we gained deeper insights into the strengths and limitations of each approach, as well as offering practical guidance for selecting appropriate feature selection methods in real-world machine learning applications.</p>
             </div>
+            </li>
+            </ul>
             <div className="skills-section py-5">
-            <h3 className="mb-4" style={{color : '#7f7098'}}>Technical Skills</h3>
+            <h2 className="mb-4" style={{color : '#7f7098'}}>Technical Skills</h2>
             <div className="row">
             {["Python","MATLAB", "SQL", "React","HTML","CSS"].map(skill => (
                 <div className="col-6 col-md-4 col-lg-2 mb-3 text-center" key={skill}>

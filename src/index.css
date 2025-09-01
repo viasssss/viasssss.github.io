@@ -1,5 +1,12 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap');
+body {
+  padding-top: 56px; /* match your Navbar height */
+}
+
+section {
+  scroll-margin-top: 70px; /* slightly more than navbar height */
+}
 
 .card {
   border: 1px solid hsla(0, 2%, 62%, 0.857);
@@ -114,11 +121,3 @@
   margin: 0;
 }
 
-.signup {
-  background-color: rgb(143, 222, 181);
-  font-size: 2.5em;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 0;
-}

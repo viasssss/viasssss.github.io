@@ -6,8 +6,8 @@ import { Card as BootstrapCard, Container, Row, Col, Image } from 'react-bootstr
 
 const Card: FC = () => {
     return(
-        <Container className="py-3">
-            <Row className="g-0">
+        <Container className="py-3 ">
+            <Row className="g-0" >
                 <Col md={4} className="pe-md-1 d-flex">
                     <BootstrapCard className="text-center shadow-sm w-100">
                         <BootstrapCard.Body style={{ padding: '0.1rem' }}>
@@ -92,7 +92,7 @@ const Card: FC = () => {
                         </BootstrapCard.Body>
                     </BootstrapCard>
                 </Col>
-                <Col md={8} className="ps-md-1 d-flex">
+                <Col md={6} className="ps-md-1 d-flex">
                     <div className="p-3 rounded shadow-sm w-100 chat-bubble" style={{ fontFamily: "'Poppins', sans-serif",backgroundColor: "#edecedff"}}>
                         <h3 style={{ 
                             fontFamily: "'Playfair Display', serif",
@@ -118,14 +118,14 @@ const Card: FC = () => {
                             <img src={cookie} alt="homemade cookies" 
                                 className="img-fluid rounded mt-3"
                                 style={{ 
-                                    height: '400px',       // fixed height
+                                    height: '300px',       // fixed height
                                     width: 'auto',         // width scales to maintain aspect ratio
                                     objectFit: 'cover'     // fills the height nicely
                                         }}/>
                         <img src={movie} alt="a movie" 
                                 className="img-fluid rounded mt-3"
                                 style={{ 
-                                    height: '400px',       // same height as first image
+                                    height: '300px',       // same height as first image
                                     width: 'auto',
                                     objectFit: 'cover'
                                         }}/>

@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
     <footer className="footer" style={{height: "90px"}}>
       <div className="social-links">
         <div className="flex justify-center space-x-2 mb-1">
-            <a href="#" className="hover:text-primary transition-colors">Resume</a>
+            <a href={"/RileyCV.pdf"} className="hover:text-primary transition-colors">Resume</a>
           <a href="https://github.com/viasssss" className="hover:text-primary transition-colors">GitHub</a>
           <a href="https://www.linkedin.com/in/riley-ji-66a368324/" className="hover:text-primary transition-colors">LinkedIn</a>
           
